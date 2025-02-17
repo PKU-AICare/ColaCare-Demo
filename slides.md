@@ -62,6 +62,18 @@ src: slides/initial.md
 ---
 
 ---
+src: slides/doctor1.md
+---
+
+---
+src: slides/doctor2.md
+---
+
+---
+src: slides/doctor3.md
+---
+
+---
 src: slides/meta.md
 ---
 
@@ -113,15 +125,3 @@ h1 {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 </style>
-
----
-src: slides/doctor1.md
----
-
----
-src: slides/doctor2.md
----
-
----
-src: slides/doctor3.md
----
