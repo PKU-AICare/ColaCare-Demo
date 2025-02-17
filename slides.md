@@ -29,6 +29,10 @@ mdc: true
   </h3>
 </div>
 
+<div class="text-center mt-20">
+  <h3 class="text-gray">请按空格键播放...</h3>
+</div>
+
 <div class="absolute bottom-10 left-0 right-0 flex justify-center space-x-8">
   <div class="flex items-center space-x-2 text-gray-300">
     <carbon:user-avatar class="text-xl" />
