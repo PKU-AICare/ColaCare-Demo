@@ -1,6 +1,5 @@
 ---
 layout: default
-routeAlias: initial
 ---
 
 <div class="text-center">
@@ -15,7 +14,7 @@ routeAlias: initial
     <div class="absolute -top-6 left-1/2 -translate-x-1/2">
       <carbon:ai class="text-4xl text-red-600 bg-white rounded-full p-2 shadow-md" />
     </div>
-    <h3 class="text-xl font-bold text-red-800 mb-4 mt-2"><Link to="doctor1">专家智能体 1</Link></h3>
+    <h3 class="text-xl font-bold text-red-800 mb-4 mt-2">专家智能体 1</h3>
     <div class="text-sm leading-relaxed">
       <div class="mb-2 -mt-2">
         <div class="flex justify-between mb-2">
@@ -45,7 +44,7 @@ routeAlias: initial
     <div class="absolute -top-6 left-1/2 -translate-x-1/2">
       <carbon:ai class="text-4xl text-emerald-600 bg-white rounded-full p-2 shadow-md" />
     </div>
-    <h3 class="text-xl font-bold text-green-800 mb-4 mt-2"><Link to="doctor2">专家智能体 2</Link></h3>
+    <h3 class="text-xl font-bold text-green-800 mb-4 mt-2">专家智能体 2</h3>
     <div class="text-sm leading-relaxed">
       <div class="mb-2 -mt-2">
         <div class="flex justify-between mb-2">
@@ -75,7 +74,7 @@ routeAlias: initial
     <div class="absolute -top-6 left-1/2 -translate-x-1/2">
       <carbon:ai class="text-4xl text-purple-600 bg-white rounded-full p-2 shadow-md" />
     </div>
-    <h3 class="text-xl font-bold text-purple-800 mb-4 mt-2"><Link to="doctor3">专家智能体 3</Link></h3>
+    <h3 class="text-xl font-bold text-purple-800 mb-4 mt-2">专家智能体 3</Link</h3>
     <div class="text-sm leading-relaxed">
       <div class="mb-2 -mt-2">
         <div class="flex justify-between mb-2">

@@ -1,6 +1,5 @@
 ---
 layout: default
-routeAlias: doctor3
 ---
 
 <div class="text-center">
@@ -15,7 +14,7 @@ routeAlias: doctor3
         <div class="absolute -top-6 left-1/2 -translate-x-1/2">
         <carbon:ai class="text-4xl text-purple-600 bg-white rounded-full p-2 shadow-md" />
         </div>
-        <h3 class="text-xl font-bold text-purple-800 mb-4 mt-2"><Link to="initial">专家智能体 3</Link></h3>
+        <h3 class="text-xl font-bold text-purple-800 mb-4 mt-2">专家智能体 3</h3>
         <div class="space-y-2 text-sm leading-relaxed">
         <div class="flex justify-between mb-2">
           <span><carbon:warning class="flex-shrink-0 text-red-800 mr-2" /> 风险等级</span>
