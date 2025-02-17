@@ -13,7 +13,7 @@ routeAlias: doctor2
   <div>
     <div class="relative bg-green-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
         <div class="absolute -top-6 left-1/2 -translate-x-1/2">
-        <carbon:medication class="text-4xl text-emerald-600 bg-white rounded-full p-2 shadow-md" />
+        <carbon:ai class="text-4xl text-emerald-600 bg-white rounded-full p-2 shadow-md" />
         </div>
         <h3 class="text-xl font-bold text-green-800 mb-4 mt-2"><Link to="initial">专家智能体 2</Link></h3>
         <div class="space-y-2 text-sm leading-relaxed">

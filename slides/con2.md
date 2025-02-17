@@ -10,7 +10,7 @@ layout: default
 <div class="grid grid-cols-3 gap-8 h-full max-w-4xl mx-auto">
   <div class="relative bg-red-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
     <div class="absolute -top-6 left-1/2 -translate-x-1/2">
-        <carbon:medication class="text-4xl text-red-600 bg-white rounded-full p-2 shadow-md" />
+        <carbon:ai class="text-4xl text-red-600 bg-white rounded-full p-2 shadow-md" />
     </div>
     <h3 class="text-xl font-bold text-red-800 mb-4 mt-2">专家智能体 2</h3>
     <div class="space-y-2 text-sm leading-relaxed">
@@ -44,7 +44,7 @@ layout: default
   <div class="relative">
     <div class="relative bg-red-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
       <div class="absolute -top-6 left-1/2 -translate-x-1/2">
-        <carbon:medication class="text-4xl text-red-600 bg-white rounded-full p-2 shadow-md" />
+        <carbon:ai class="text-4xl text-red-600 bg-white rounded-full p-2 shadow-md" />
       </div>
       <h3 class="text-xl font-bold text-red-800 mb-4 mt-2">专家智能体 1</h3>
       <div class="space-y-2 text-sm leading-relaxed">
