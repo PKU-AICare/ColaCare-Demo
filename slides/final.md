@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="text-center -mt-5">
-  <h1 class="text-3xl font-bold text-indigo-800 mb-2">多医疗智能体协作会诊</h1>
+  <h1 class="text-3xl font-bold text-indigo-800 mb-2">多医疗智能体协作会诊流程</h1>
   <p class="text-gray-600">过程总览</p>
 </div>
 
