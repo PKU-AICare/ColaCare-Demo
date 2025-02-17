@@ -13,7 +13,7 @@ routeAlias: initial
 <div v-click=1 class="v-click">
   <div class="relative bg-red-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
     <div class="absolute -top-6 left-1/2 -translate-x-1/2">
-      <carbon:medication class="text-4xl text-red-600 bg-white rounded-full p-2 shadow-md" />
+      <carbon:ai class="text-4xl text-red-600 bg-white rounded-full p-2 shadow-md" />
     </div>
     <h3 class="text-xl font-bold text-red-800 mb-4 mt-2"><Link to="doctor1">专家智能体 1</Link></h3>
     <div class="text-sm leading-relaxed">
@@ -43,7 +43,7 @@ routeAlias: initial
 <div v-click=1 class="v-click">
   <div class="relative bg-green-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
     <div class="absolute -top-6 left-1/2 -translate-x-1/2">
-      <carbon:medication class="text-4xl text-emerald-600 bg-white rounded-full p-2 shadow-md" />
+      <carbon:ai class="text-4xl text-emerald-600 bg-white rounded-full p-2 shadow-md" />
     </div>
     <h3 class="text-xl font-bold text-green-800 mb-4 mt-2"><Link to="doctor2">专家智能体 2</Link></h3>
     <div class="text-sm leading-relaxed">
@@ -73,7 +73,7 @@ routeAlias: initial
 <div v-click=1 class="v-click">
   <div class="relative bg-purple-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
     <div class="absolute -top-6 left-1/2 -translate-x-1/2">
-      <carbon:medication class="text-4xl text-purple-600 bg-white rounded-full p-2 shadow-md" />
+      <carbon:ai class="text-4xl text-purple-600 bg-white rounded-full p-2 shadow-md" />
     </div>
     <h3 class="text-xl font-bold text-purple-800 mb-4 mt-2"><Link to="doctor3">专家智能体 3</Link></h3>
     <div class="text-sm leading-relaxed">
