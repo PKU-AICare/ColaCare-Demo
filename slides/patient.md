@@ -38,33 +38,36 @@ layout: default
   </div>
 
   <div class="relative">
+    <div v-click=1 class="text-center">
+      <h1 class="text-2xl text-indigo-800 mb-2">专家团队</h1>
+    </div>
     <div v-click=1 class="triangle-container">
       <div class="triangle-row mb-8 mt-8">
         <div class="relative bg-red-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
           <div class="absolute -top-6 left-1/2 -translate-x-1/2">
-            <carbon:medication class="text-4xl text-red-600 bg-white rounded-full p-2 shadow-md" />
+            <carbon:ai class="text-4xl text-red-600 bg-white rounded-full p-2 shadow-md" />
           </div>
           <h3 class="text-xl font-bold text-red-800 mb-4 mt-2">专家智能体 1</h3>
         </div>
         <div class="relative bg-green-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
           <div class="absolute -top-6 left-1/2 -translate-x-1/2">
-            <carbon:medication class="text-4xl text-emerald-600 bg-white rounded-full p-2 shadow-md" />
+            <carbon:ai class="text-4xl text-emerald-600 bg-white rounded-full p-2 shadow-md" />
           </div>
           <h3 class="text-xl font-bold text-green-800 mb-4 mt-2">专家智能体 2</h3>
         </div>
       </div>
       <div class="triangle-row mb-8">
-        <div class="relative bg-red-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
+        <div class="relative bg-yellow-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
           <div class="absolute -top-6 left-1/2 -translate-x-1/2">
-            <carbon:medication class="text-4xl text-red-600 bg-white rounded-full p-2 shadow-md" />
+            <carbon:light class="text-4xl text-yellow-500 bg-white rounded-full p-2 shadow-md" />
           </div>
-          <h3 class="text-xl font-bold text-red-800 mb-4 mt-2">协调智能体 1</h3>
+          <h3 class="text-xl font-bold text-yellow-500 mb-4 mt-2">协调智能体</h3>
         </div>
       </div>
       <div class="triangle-row">
         <div class="relative bg-purple-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
           <div class="absolute -top-6 left-1/2 -translate-x-1/2">
-            <carbon:medication class="text-4xl text-purple-600 bg-white rounded-full p-2 shadow-md" />
+            <carbon:ai class="text-4xl text-purple-600 bg-white rounded-full p-2 shadow-md" />
           </div>
           <h3 class="text-xl font-bold text-purple-800 mb-4 mt-2">专家智能体 3</h3>
         </div>
