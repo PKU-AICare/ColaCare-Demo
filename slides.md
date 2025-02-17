@@ -34,13 +34,9 @@ mdc: true
 </div>
 
 <div class="absolute bottom-10 left-0 right-0 flex justify-center space-x-8">
-  <div class="flex items-center space-x-2 text-gray-300">
+  <div class="flex items-center text-gray-300">
     <carbon:user-avatar class="text-xl" />
     <span>北京大学</span>
-  </div>
-  <div class="flex items-center space-x-2 text-gray-300">
-    <carbon:calendar class="text-xl" />
-    <span>{{ new Date().toLocaleDateString() }}</span>
   </div>
 </div>
 
@@ -106,11 +102,8 @@ background: /figures/bg.jpg
 
 <div class="text-center">
   <h2 class="text-2xl mt-4 text-gray-200">
-    ColaCare
-  </h2>
-  <h3 class="text-xl mt-8 text-gray-300">
     大语言模型驱动的多智能体协作框架增强电子病历预测建模
-  </h3>
+  </h2>
 </div>
 
 <div class="absolute bottom-10 left-0 right-0 flex justify-center space-x-8">
