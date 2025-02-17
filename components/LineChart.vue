@@ -31,23 +31,23 @@ const timelineData = {
 }
 
 const indicators = {
-    cl: { id: 'cl', name: 'Chlorine', unit: 'mmol/L', value: '98.0' },
-    co2cp: { id: 'co2cp', name: 'CO2CP', unit: 'mmol/L', value: '18.7' },
+    cl: { id: 'cl', name: '血氯', unit: 'mmol/L', value: '98.0' },
+    co2cp: { id: 'co2cp', name: '二氧化碳结合力', unit: 'mmol/L', value: '18.7' },
     wbc: { id: 'wbc', name: 'WBC', unit: '×10^9/L', value: '8.6' },
     hb: { id: 'hb', name: 'HGB', unit: 'g/L', value: '133.0' },
     urea: { id: 'urea', name: 'Urea', unit: 'mmol/L', value: '15.2' },
     ca: { id: 'ca', name: 'Calcium', unit: 'mmol/L', value: '2.43' },
-    k: { id: 'k', name: 'Potassium', unit: 'mmol/L', value: '3.11' },
+    k: { id: 'k', name: '血钾', unit: 'mmol/L', value: '3.11' },
     na: { id: 'na', name: 'Sodium', unit: 'mmol/L', value: '136.0' },
-    scr: { id: 'scr', name: 'SCR', unit: 'μmol/L', value: '768.0' },
+    scr: { id: 'scr', name: '血肌酐', unit: 'μmol/L', value: '768.0' },
     p: { id: 'p', name: 'PHOS', unit: 'mmol/L', value: '1.42' },
-    albumin: { id: 'albumin', name: 'Albumin', unit: 'g/L', value: '30.2' },
+    albumin: { id: 'albumin', name: '白蛋白', unit: 'g/L', value: '30.2' },
     crp: { id: 'crp', name: 'hs-CRP', unit: 'mg/L', value: '7.17' },
     glucose: { id: 'glucose', name: 'Glucose', unit: 'mmol/L', value: '14.7' },
-    appetite: { id: 'appetite', name: 'Food\nIntake', unit: 'g', value: '3495.67' },
+    appetite: { id: 'appetite', name: '食物摄入', unit: 'g', value: '3495.67' },
     weight: { id: 'weight', name: 'Weight', unit: 'kg', value: '64.0' },
-    sbp: { id: 'sbp', name: 'Systolic Pressure', unit: 'mmHg', value: '130.0' },
-    dbp: { id: 'dbp', name: 'Diastolic Pressure', unit: 'mmHg', value: '85.0' },
+    sbp: { id: 'sbp', name: '收缩压', unit: 'mmHg', value: '130.0' },
+    dbp: { id: 'dbp', name: '舒张压', unit: 'mmHg', value: '85.0' },
 }
 
 export default {
@@ -87,7 +87,7 @@ export default {
                 tooltip: {
                     trigger: 'axis',
                     formatter: params => {
-                        let tooltipText = 'Time: ' + params[0].axisValue + '<br/>';
+                        let tooltipText = '日期：' + params[0].axisValue + '<br/>';
                         params.forEach(item => {
                             let currentIndicator = Object.values(indicators).find(ind => ind.name === item.seriesName);
                             let unit = currentIndicator ? currentIndicator.unit : '';
@@ -103,7 +103,7 @@ export default {
                 xAxis: {
                     type: 'category',
                     data: props.time,
-                    name: 'Time',
+                    name: '日期',
                     axisLabel: {
                         interval: 4,
                         rotate: 45,
