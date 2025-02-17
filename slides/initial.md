@@ -9,7 +9,7 @@ layout: default
 
 <div class="grid grid-cols-3 gap-12 items-center mt-10">
 
-<div v-click=1 class="v-click">
+<div class="v-click">
   <div class="relative bg-red-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
     <div class="absolute -top-6 left-1/2 -translate-x-1/2">
       <carbon:ai class="text-4xl text-red-600 bg-white rounded-full p-2 shadow-md" />
@@ -39,7 +39,7 @@ layout: default
   </div>
 </div>
 
-<div v-click=1 class="v-click">
+<div class="v-click">
   <div class="relative bg-green-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
     <div class="absolute -top-6 left-1/2 -translate-x-1/2">
       <carbon:ai class="text-4xl text-emerald-600 bg-white rounded-full p-2 shadow-md" />
@@ -69,12 +69,12 @@ layout: default
   </div>
 </div>
 
-<div v-click=1 class="v-click">
+<div class="v-click">
   <div class="relative bg-purple-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
     <div class="absolute -top-6 left-1/2 -translate-x-1/2">
       <carbon:ai class="text-4xl text-purple-600 bg-white rounded-full p-2 shadow-md" />
     </div>
-    <h3 class="text-xl font-bold text-purple-800 mb-4 mt-2">专家智能体 3</Link</h3>
+    <h3 class="text-xl font-bold text-purple-800 mb-4 mt-2">专家智能体 3</h3>
     <div class="text-sm leading-relaxed">
       <div class="mb-2 -mt-2">
         <div class="flex justify-between mb-2">
@@ -99,8 +99,4 @@ layout: default
   </div>
 </div>
 
-</div>
-
-<div v-click=1 class="text-center mt-20">
-    <h3 class="text-gray">点击相应专家智能体可查看分析详情</h3>
 </div>
