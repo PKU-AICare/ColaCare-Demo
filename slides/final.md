@@ -16,11 +16,11 @@ layout: default
   <div class="absolute top-1/2 left-0 right-0 flex justify-between">
     <div v-click="2" class="w-24 text-center">
       <div class="w-6 h-6 bg-blue-500 rounded-full mx-auto -mt-3 ring-4 ring-white"></div>
-      <span class="text-sm">初始报告</span>
+      <span class="text-sm">初始阶段</span>
     </div>
     <div v-click="3" class="w-24 text-center">
       <div class="w-6 h-6 bg-orange-500 rounded-full mx-auto -mt-3 ring-4 ring-white"></div>
-      <span class="text-sm">第1轮辩论</span>
+      <span class="text-sm">第一轮辩论</span>
     </div>
     <div v-click="4" class="w-24 text-center">
       <div class="w-6 h-6 bg-green-500 rounded-full mx-auto -mt-3 ring-4 ring-white"></div>
@@ -39,11 +39,11 @@ layout: default
         <div class="mt-4">
           <div class="mb-2">
             <h5 class="text-xl font-bold">专家智能体 1</h5>
-            <div class="flex justify-between text-xs">
+            <div class="flex justify-between text-xs mb-2">
               <span><carbon:warning class="flex-shrink-0 text-red-500 mr-2" /> 风险等级</span>
               <span>55%</span>
             </div>
-            <div class="h-2 bg-gray-200 rounded-full overflow-hidden mt-1">
+            <div class="h-2 bg-gray-200 rounded-full overflow-hidden">
               <div class="w-55/100 h-full bg-red-600 animate-progress"></div>
             </div>
           </div>
@@ -79,7 +79,7 @@ layout: default
   <!-- 第1轮辩论卡片 -->
   <div v-click="3" class="col-span-1">
     <div class="card-animation bg-orange-50 p-4 h-full rounded-lg shadow-md">
-      <h3 class="text-sm font-bold mb-2">第1轮辩论</h3>
+      <h3 class="text-sm font-bold mb-2">第一轮辩论</h3>
       <div class="text-xs text-gray-600">
         <div class="mt-4 mb-6">
           <h5 class="text-xl font-bold">专家智能体 1</h5>
@@ -99,6 +99,12 @@ layout: default
             <span> 赞成综合报告</span>
           </div>
         </div>
+        <div class="mt-4 mb-6">
+          <h5 class="text-xl font-bold">协调智能体</h5>
+          <div class="flex justify-between text-xs mb-2">
+            <span> 达成共识，终止讨论，生成最终报告</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -108,13 +114,13 @@ layout: default
     <div class="card-animation bg-green-50 p-4 h-full rounded-lg shadow-md">
       <h3 class="text-sm font-bold mb-2">最终共识</h3>
       <div class="text-xs space-y-2 text-gray-600">
-        <h5>诊断结论</h5>
+        <h5 class="text-xl font-bold">诊断结论</h5>
         <p>患者属ESRD死亡高风险人群</p>
-        <h5>核心依据</h5>
+        <h5 class="text-xl font-bold">核心依据</h5>
         1. 代谢性酸中毒，加速肾病进展<br>
         2. 低白蛋白血症与低钾血症共同导致营养不良，心血管恶性循环<br>
         3. 高营养摄入与低蛋白血症的矛盾现象提示需调整肠内营养方案，避免液体超负荷
-        <h5>干预建议</h5>
+        <h5 class="text-xl font-bold">干预建议</h5>
         1. 紧急纠正低钾血症（目标>4 mmol/L）<br>
         2. 优化酸中毒管理（碳酸氢钠补充）<br>
         3. 制定个体化低蛋白-高热量营养计划
