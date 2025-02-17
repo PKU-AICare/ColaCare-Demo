@@ -8,7 +8,7 @@ routeAlias: initial
     <p class="text-gray-600">专家智能体做出初步判断</p>
 </div>
 
-<div class="grid grid-cols-3 gap-12 h-full items-center -mt-8">
+<div class="grid grid-cols-3 gap-12 items-center mt-10">
 
 <div v-click=1 class="v-click">
   <div class="relative bg-red-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
@@ -102,15 +102,6 @@ routeAlias: initial
 
 </div>
 
-<style>
-/* 自定义气泡悬停动画 */
-.hover\\:shadow-xl:hover {
-  transform: translateY(-5px);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* 对话三角箭头 */
-.absolute > .w-0 {
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
-}
-</style>
+<div v-click=1 class="text-center mt-20">
+    <h3 class="text-gray">点击相应专家智能体可查看分析详情</h3>
+</div>
