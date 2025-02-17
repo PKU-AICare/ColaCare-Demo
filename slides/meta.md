@@ -13,7 +13,7 @@ class: text-gray-800
   <div class="grid grid-cols-3 gap-8 items-start -mt-5">
     <div class="bg-white rounded-xl shadow-lg p-6 border-l-4 border-red-500">
       <div class="flex items-center mb-4">
-        <carbon:medication class="text-2xl text-red-500 mr-2" />
+        <carbon:ai class="text-2xl text-red-500 mr-2" />
         <h3 class="font-semibold text-red-800">专家智能体 1</h3>
       </div>
       <div class="flex justify-between text-xs -mt-3">
@@ -26,7 +26,7 @@ class: text-gray-800
     </div>
     <div class="bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-500">
       <div class="flex items-center mb-4">
-        <carbon:medication class="text-2xl text-green-500 mr-2" />
+        <carbon:ai class="text-2xl text-green-500 mr-2" />
         <h3 class="font-semibold text-green-800">专家智能体 2</h3>
       </div>
       <div class="flex justify-between text-xs -mt-3">
@@ -39,7 +39,7 @@ class: text-gray-800
     </div>
     <div class="bg-white rounded-xl shadow-lg p-6 border-l-4 border-purple-500">
       <div class="flex items-center mb-4">
-        <carbon:medication class="text-2xl text-purple-500 mr-2" />
+        <carbon:ai class="text-2xl text-purple-500 mr-2" />
         <h3 class="font-semibold text-purple-800">专家智能体 3</h3>
       </div>
       <div class="flex justify-between text-xs -mt-3">
@@ -53,10 +53,10 @@ class: text-gray-800
   </div>
 
   <!-- MetaAgent综合报告 -->
-  <div class="bg-white rounded-xl shadow-md p-3 border-t-4 border-indigo-500">
+  <div class="bg-white rounded-xl shadow-md p-3 border-t-4 border-yellow-500">
     <div class="flex items-center mb-2">
-      <carbon:ai class="text-lg text-indigo-600 mr-2" />
-      <h3 class="font-semibold text-indigo-800 text-base">协调智能体综合报告</h3>
+      <carbon:light class="text-lg text-yellow-500 mr-2" />
+      <h3 class="font-semibold text-yellow-600 text-base">协调智能体综合报告</h3>
     </div>
     <!-- 风险等级 -->
     <div class="mb-3 p-2 bg-red-50 rounded-md">
