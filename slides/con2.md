@@ -7,7 +7,7 @@ layout: default
     <p class="text-gray-600">专家智能体的多轮协作讨论</p>
 </div>
 
-<div class="grid grid-cols-3 gap-8 h-full max-w-4xl mx-auto">
+<div class="grid grid-cols-3 gap-8 max-w-4xl mx-auto">
   <div class="relative bg-green-50 rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300">
     <div class="absolute -top-6 left-1/2 -translate-x-1/2">
       <carbon:ai class="text-4xl text-emerald-600 bg-white rounded-full p-2 shadow-md" />
