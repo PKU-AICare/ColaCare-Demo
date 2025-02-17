@@ -4,7 +4,7 @@ routeAlias: doctor2
 ---
 
 <div class="text-center">
-    <h1 class="text-3xl font-bold text-indigo-800 mb-2">多医疗智能体协作会诊</h1>
+    <h1 class="text-3xl font-bold text-indigo-800 mb-2">多医疗智能体协作会诊流程</h1>
     <p class="text-gray-600">专家智能体做出初步判断</p>
 </div>
 
