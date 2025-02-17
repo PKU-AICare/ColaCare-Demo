@@ -31,8 +31,8 @@ layout: default
       <span class="font-bold">报告整合</span>
     </div>
     <ul class="text-sm pl-6 list-disc mt-2">
-      <li>生成初步诊断建议</li>
       <li>协调智能体整合多方意见</li>
+      <li>生成初步诊断报告</li>
     </ul>
   </div>
 
